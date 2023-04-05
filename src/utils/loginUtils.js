@@ -16,5 +16,5 @@ export const formatThirdPartyProviders = (providersArray) => {
         { button_color: '#000000', provider_label: 'Continue with Apple', provider_param: 'apple', provider_logo: '../img/third-party-idp/logo_apple.svg', provider_logo_size: 19 }
     ];
 
-    return [...providers, ...thirdPartyProviders.filter(p => providersArray.includes(p.provider_param))];
+    return [...providers, ...thirdPartyProviders.filter(p => providersArray && providersArray.includes(p.provider_param))];
 };

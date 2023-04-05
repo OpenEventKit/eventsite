@@ -30,10 +30,11 @@ const summitReducer = (state = DEFAULT_STATE, action) => {
     case STOP_LOADING:
       return { ...state, loading: false };
     case GET_THIRD_PARTY_PROVIDERS:
+
       const { third_party_identity_providers : third_party_providers, allows_native_auth, allows_otp_auth } = payload.response;
       return { ...state,
                   loading: false,
-                  third_party_providers,
+                  third_party_providers: third_party_providers || [],
                   allows_native_auth,
                   allows_otp_auth
             };
