@@ -1,7 +1,7 @@
 backend:
   name: github
-  branch: main
-  repo: fntechgit/fnEvent
+  branch: prod/acaday
+  repo: OpenEventKit/eventsite
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
