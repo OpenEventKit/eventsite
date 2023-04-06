@@ -7,7 +7,7 @@
     "dateLayout": true,
     "buttons": {
       "registerButton": {
-        "text": "Register now",
+        "text": "Buy tickets",
         "display": true
       },
       "loginButton": {
@@ -24,7 +24,7 @@
   },
   "leftColumn": {
     "schedule": {
-      "display": true,
+      "display": false,
       "title": "Full Event Schedule"
     },
     "disqus": {
@@ -41,45 +41,7 @@
     {
       "title": "Top Left",
       "images": [
-        {
-          "image": "/img/tier1-default-space3.png",
-          "link": "",
-          "alt": ""
-        },
-        {
-          "image": "/img/tier1-default-space4.png",
-          "alt": ""
-        }
-      ],
-      "size": 2
-    },
-    {
-      "title": "Top Right",
-      "images": [
-        {
-          "image": "/img/tier1-default-space1.png",
-          "link": "",
-          "alt": ""
-        }
-      ],
-      "size": 1
-    },
-    {
-      "title": "Mid Left",
-      "images": [
-        {
-          "image": "/img/tier1-default-space2.png",
-          "alt": ""
-        }
-      ],
-      "size": 1
-    },
-    {
-      "images": [
-        {
-          "image": "/img/tier1-default-space4.png",
-          "alt": ""
-        }
+        {}
       ],
       "size": 2
     }
