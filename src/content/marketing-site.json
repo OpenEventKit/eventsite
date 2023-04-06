@@ -37,15 +37,7 @@
       "src": ""
     }
   },
-  "sponsors": [
-    {
-      "title": "Top Left",
-      "images": [
-        {}
-      ],
-      "size": 2
-    }
-  ],
+  "sponsors": [],
   "countdown": {
     "display": true,
     "text": "Event Kickoff"
