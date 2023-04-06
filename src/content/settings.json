@@ -42,8 +42,8 @@
     }
   ],
   "favicons": {
-    "favicon180": "/img/favicon.png",
-    "favicon32": "/img/favicon.png",
-    "favicon16": "/img/favicon.png"
+    "favicon180": "/img/apple-touch-icon.png",
+    "favicon32": "/img/favicon-32x32.png",
+    "favicon16": "/img/favicon-16x16.png"
   }
 }
