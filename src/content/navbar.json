@@ -1,23 +1,100 @@
 {
   "items": [
     {
-      "title": "My Profile",
-      "link": "/a/profile",
-      "display": false,
+      "title": "Lobby",
+      "link": "/a/",
+      "display": true,
       "requiresAuth": true,
       "pageRestriction": [
         "ANY"
       ]
     },
     {
-      "requiresAuth": false,
-      "showOnlyAtShowTime": false,
+      "title": "My Tickets",
+      "link": "/a/my-tickets",
+      "display": true,
+      "requiresAuth": true,
       "pageRestriction": [
         "ANY"
-      ],
-      "title": "More Info",
-      "link": "https://acaday.ca",
-      "display": true
+      ]
+    },
+    {
+      "title": "Schedule",
+      "link": "/a/schedule",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "My Schedule",
+      "link": "/a/my-schedule",
+      "display": true,
+      "requiresAuth": false
+    },
+    {
+      "title": "Sponsors ",
+      "link": "/a/sponsors/",
+      "display": true,
+      "requiresAuth": true,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "About the event",
+      "link": "/about-event",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "Who we are",
+      "link": "/who-we-are",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "Past events",
+      "link": "/past-events",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "Contact",
+      "link": "/contact",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "Help",
+      "link": "/help",
+      "display": true,
+      "requiresAuth": false,
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "My Profile",
+      "link": "/a/profile",
+      "display": true,
+      "requiresAuth": true,
+      "pageRestriction": [
+        "ANY"
+      ]
     }
   ]
 }
