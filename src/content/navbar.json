@@ -3,21 +3,11 @@
     {
       "title": "My Profile",
       "link": "/a/profile",
-      "display": false,
+      "display": true,
       "requiresAuth": true,
       "pageRestriction": [
         "ANY"
       ]
-    },
-    {
-      "requiresAuth": false,
-      "showOnlyAtShowTime": false,
-      "pageRestriction": [
-        "ANY"
-      ],
-      "title": "More Info",
-      "link": "https://acaday.ca",
-      "display": true
     }
   ]
 }
