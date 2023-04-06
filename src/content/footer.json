@@ -2,7 +2,7 @@
   "columns": [
     {
       "title": "The Event",
-      "display": true,
+      "display": false,
       "items": [
         {
           "title": "All Projects",
@@ -20,7 +20,7 @@
     },
     {
       "title": "The Vision",
-      "display": true,
+      "display": false,
       "items": [
         {
           "title": "About",
@@ -56,42 +56,8 @@
   },
   "social": {
     "title": "Follow Us",
-    "display": true,
-    "networks": [
-      {
-        "icon": "fa-facebook",
-        "link": "/footer-content/",
-        "display": true
-      },
-      {
-        "icon": "fa-twitter",
-        "link": "/footer-content/",
-        "display": true
-      },
-      {
-        "icon": "fa-linkedin",
-        "link": "/footer-content/",
-        "display": true
-      },
-      {
-        "link": "/footer-content/",
-        "icon": "TEST",
-        "display": true
-      }
-    ]
+    "display": false,
+    "networks": []
   },
-  "legal": [
-    {
-      "title": "Privacy Policy",
-      "link": "/footer-content/"
-    },
-    {
-      "title": "Legals",
-      "link": "/footer-content/"
-    },
-    {
-      "title": "Disclaimer",
-      "link": "/footer-content/"
-    }
-  ]
+  "legal": []
 }
