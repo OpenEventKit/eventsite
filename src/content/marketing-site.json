@@ -12,7 +12,7 @@
       },
       "loginButton": {
         "text": "Log in",
-        "display": false
+        "display": true
       }
     },
     "background": "",
