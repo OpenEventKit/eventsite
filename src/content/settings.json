@@ -10,35 +10,35 @@
       "allowClick": true
     }
   },
-  "lastBuild": 1673733535353,
+  "lastBuild": 1681131147254,
   "staticJsonFilesBuildTime": [
     {
       "file": "src/content/summit.json",
-      "build_time": 1673733540
+      "build_time": 1681131145086
     },
     {
       "file": "src/content/events.json",
-      "build_time": 1673733573
+      "build_time": 1681131145858
     },
     {
       "file": "src/content/events.idx.json",
-      "build_time": 1673733573
+      "build_time": 1681131145862
     },
     {
       "file": "src/content/speakers.json",
-      "build_time": 1673733586
+      "build_time": 1681131146350
     },
     {
       "file": "src/content/speakers.idx.json",
-      "build_time": 1673733586
+      "build_time": 1681131146351
     },
     {
       "file": "src/content/voteable_presentations.json",
-      "build_time": 1673733587
+      "build_time": 1681131146871
     },
     {
       "file": "src/content/extra-questions.json",
-      "build_time": 1673733588
+      "build_time": 1681131147253
     }
   ],
   "favicons": {
