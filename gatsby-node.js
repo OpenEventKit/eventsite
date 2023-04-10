@@ -214,7 +214,6 @@ exports.onPreBootstrap = async () => {
         
     if (key === 'REG_LITE_COMPANY_INPUT_PLACEHOLDER') marketingSite[key] = value;
     if (key === 'REG_LITE_COMPANY_DDL_PLACEHOLDER') marketingSite[key] = value;
-    if (key === 'REG_LITE_SHOW_COMPANY_INPUT') marketingSite[key] = !!Number(value);
     if (key === 'REG_LITE_ALLOW_PROMO_CODES') marketingSite[key] = !!Number(value);
     if (key === 'schedule_default_image') homeSettings.schedule_default_image = value;
     if (key === 'registration_in_person_disclaimer') marketingSite[key] = value;

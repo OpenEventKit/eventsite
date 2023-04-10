@@ -1,1 +1,17 @@
-{"centerColumn":{"speakers":{"showTodaySpeakers":true,"showFeatureSpeakers":false}},"homeHero":{"title":"Lobby HERO Text","subTitle":"Lobby Subtitle Text","image":{"file":"/img/header.png","alt":""},"copy":"<h2><strong>Lobby HERO Text</strong></h2>\n<h2>Lobby Subtitle Text</h2>"}}
+{
+  "centerColumn": {
+    "speakers": {
+      "showTodaySpeakers": true,
+      "showFeatureSpeakers": false
+    }
+  },
+  "homeHero": {
+    "title": "Lobby HERO Text",
+    "subTitle": "Lobby Subtitle Text",
+    "image": {
+      "file": "/img/header.png",
+      "alt": ""
+    },
+    "copy": "<h2><strong>Lobby HERO Text</strong></h2>\n<h2>Lobby Subtitle Text</h2>"
+  }
+}

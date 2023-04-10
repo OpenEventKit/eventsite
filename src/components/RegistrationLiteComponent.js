@@ -150,7 +150,6 @@ const RegistrationLiteComponent = ({
                 });
         },
         allowPromoCodes: siteSettings?.REG_LITE_ALLOW_PROMO_CODES,
-        showCompanyInput: siteSettings?.REG_LITE_SHOW_COMPANY_INPUT,
         companyInputPlaceholder: siteSettings?.REG_LITE_COMPANY_INPUT_PLACEHOLDER,
         companyDDLPlaceholder: siteSettings?.REG_LITE_COMPANY_DDL_PLACEHOLDER,
         supportEmail:getEnvVariable(SUPPORT_EMAIL),
