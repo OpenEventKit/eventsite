@@ -1,9 +1,9 @@
 {
   "heroBanner": {
     "title": "ACA Day",
-    "subTitle": "Let's join together and raise $5,000 for ACA!",
-    "date": "April 29th @ 9:00am (in-person) / 10:00am (online)",
-    "time": "",
+    "subTitle": "Let's raise $5,000 for ACA!",
+    "date": "April 29th",
+    "time": "9:00am in-person / 10:00am online",
     "dateLayout": true,
     "buttons": {
       "registerButton": {
