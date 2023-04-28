@@ -52,7 +52,7 @@ export const HomePageTemplate = class extends React.Component {
                     <div className="columns">
                         <div className="column is-one-quarter">
                             <h2><b>Community</b></h2>
-                            <SponsorComponent page='lobby'/>
+                            {/* <SponsorComponent page='lobby'/> */}
                             <AdvertiseComponent section='lobby' column="left"/>
                         </div>
                         <div className="column is-half">
@@ -101,7 +101,7 @@ export const HomePageTemplate = class extends React.Component {
                             }
                             <AdvertiseComponent section='lobby' column="center"/>
                         </div>
-                        <div className="column is-one-quarter pb-6">
+                        {/* <div className="column is-one-quarter pb-6">
                             <h2><b>My Info</b></h2>
                             <AccessTracker/>
                             <AttendeesWidget user={user}/>
@@ -116,7 +116,7 @@ export const HomePageTemplate = class extends React.Component {
                                 eventCount={10}
                             />
                             <AdvertiseComponent section='lobby' column="right"/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </React.Fragment>
