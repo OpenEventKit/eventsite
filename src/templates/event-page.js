@@ -135,7 +135,7 @@ export const EventPageTemplate = class extends React.Component {
                                 />
                             </div>
                         )}
-                        <div
+                        {/* <div
                             className="column is-hidden-mobile"
                             style={{
                                 position: "relative",
@@ -147,7 +147,7 @@ export const EventPageTemplate = class extends React.Component {
                                 event={event}
                                 title="Public Conversation"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                 <section className="section px-0 pt-5 pb-0">
@@ -168,14 +168,14 @@ export const EventPageTemplate = class extends React.Component {
                             <div className="px-5 py-0">
                                 <SponsorComponent page="event"/>
                             </div>
-                            <div className="is-hidden-tablet">
+                            {/* <div className="is-hidden-tablet">
                                 <DisqusComponent
                                     hideMobile={false}
                                     event={event}
                                     title="Public Conversation"
                                 />
                                 ∆
-                            </div>
+                            </div> */}
                             {event.etherpad_link && (
                                 <div className="column is-three-quarters">
                                     <Etherpad
@@ -185,7 +185,7 @@ export const EventPageTemplate = class extends React.Component {
                                     />
                                 </div>
                             )}
-                            <UpcomingEventsComponent
+                            {/* <UpcomingEventsComponent
                                 key={`event_page_upcomming_event_${lastDataSync}`}
                                 id={`event_page_upcomming_event_${lastDataSync}`}
                                 trackId={event.track ? event.track.id : null}
@@ -201,13 +201,13 @@ export const EventPageTemplate = class extends React.Component {
                                         View all <span className="sr-only">events</span>
                                     </Link>
                                 }
-                            />
+                            /> */}
                         </div>
                         <div className="column px-0 py-0 is-one-quarter is-full-mobile">
                             <DocumentsComponent event={event}/>
-                            <AccessTracker/>
-                            <AttendeesWidget user={user} event={event}/>
-                            <AdvertiseComponent section="event" column="right"/>
+                            {/* <AccessTracker/> */}
+                            {/* <AttendeesWidget user={user} event={event}/> */}
+                            {/* <AdvertiseComponent section="event" column="right"/> */}
                         </div>
                     </div>
                 </section>
