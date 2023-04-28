@@ -126,28 +126,28 @@ const withRealTimeUpdates = WrappedComponent => {
          */
         async queryRealTimeDB(summitId, lastCheckForNovelties) {
 
-            if (!this._supabase) return Promise.resolve(false);
+            // if (!this._supabase) return Promise.resolve(false);
 
-            try {
-                const res = await this._supabase
-                    .from('summit_entity_updates')
-                    .select('id,created_at,summit_id,entity_id,entity_type,entity_operator')
-                    .eq('summit_id', summitId)
-                    .gt('created_at', lastCheckForNovelties)
-                    .order('id', {ascending: true});
+            // try {
+            //     const res = await this._supabase
+            //         .from('summit_entity_updates')
+            //         .select('id,created_at,summit_id,entity_id,entity_type,entity_operator')
+            //         .eq('summit_id', summitId)
+            //         .gt('created_at', lastCheckForNovelties)
+            //         .order('id', {ascending: true});
 
-                if (res.error)
-                    throw new Error(res.error)
+            //     if (res.error)
+            //         throw new Error(res.error)
 
-                if (res.data && res.data.length > 0) {
-                    return res.data;
-                }
+            //     if (res.data && res.data.length > 0) {
+            //         return res.data;
+            //     }
 
-                return false;
-            } catch (e) {
-                console.log("withRealTimeUpdates::queryRealTimeDB ERROR");
-                console.log(e);
-            }
+            //     return false;
+            // } catch (e) {
+            //     console.log("withRealTimeUpdates::queryRealTimeDB ERROR");
+            //     console.log(e);
+            // }
         }
 
 
